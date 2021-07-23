@@ -25,7 +25,7 @@
 
 				<!-- Header -->
 				<header id="header">
-					<a href="index.html" class="logo"><img src="images\a__1_-removebg-preview.png" alt="logo" height="99px" width="99px" /></a>
+					<a href="index.html" class="logo"><img src="../images\a__1_-removebg-preview.png" alt="logo" height="99px" width="99px" /></a>
 					<h2>
 						<center>
 							All About Today
@@ -146,6 +146,25 @@
 						A 'Cyber Cleanliness Center' has also been established to deal with cybercrimes in a coordinated and effective manner in the country. It is a part of the Digital India campaign of the Government of India under the Ministry of Electronics
 						and Information Technology-MeitY. India is coordinating with countries like the US, UK, and China to adopt best practices in terms of information sharing and cybersecurity.
 					</p>
+					<div id="all comments">
+						<h3>Coments</h3>
+						<!--past comments-->
+						<ul id=pastcomments></ul>
+						<form id="newcomment">
+						<label for="tbName">First Name or Initials</label>
+						<br>
+						<input name="tbName" type="text" maxlength="20" required>
+						<br>
+						<label for="txComment">Your Comment/ Questions</label>
+						<br>
+						<textarea id="txComment" maxlength="4096" required style="width:96%"></textarea>
+						<br>
+						<input type="submit" id="btnSubmitComment" value="Submit Comment">
+
+						</textarea/>
+						</form>
+
+					</div>
 
 				</section>
 
@@ -237,12 +256,15 @@
 
 	</div>
 
+
+
 	<!-- Scripts -->
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/browser.min.js"></script>
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script src="assets/js/comments.js"></script>
 
 </body>
 
