@@ -218,6 +218,10 @@ hr {
   margin: 2em 0; }
   hr.major {
     margin: 3em 0; }
+  hr.elon{
+    margin: 3em 0;
+    border-top: 2px dashed #17a5a3;
+  }
 
 .align-left {
   text-align: left; }
