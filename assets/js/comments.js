@@ -3,7 +3,7 @@
 
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
-<script> src="https://www.gstatic.com/firebasejs/8.8.0/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-database.js"></script>
 
 <script>
   // Your web app's Firebase configuration
@@ -20,7 +20,6 @@
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
   //Rootref is the whole realtime database.
   const rootRef=firebase.database().ref();
   //commentsRef is just the comments data in the database.
