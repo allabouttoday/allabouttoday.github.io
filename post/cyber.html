@@ -146,24 +146,6 @@
 						A 'Cyber Cleanliness Center' has also been established to deal with cybercrimes in a coordinated and effective manner in the country. It is a part of the Digital India campaign of the Government of India under the Ministry of Electronics
 						and Information Technology-MeitY. India is coordinating with countries like the US, UK, and China to adopt best practices in terms of information sharing and cybersecurity.
 					</p>
-					<div id="all comments">
-						<h3>Coments</h3>
-						<!--past comments-->
-						<ul id=pastcomments></ul>
-						<form id="newcomment" action="#">
-						<label for="tbName">First Name or Initials</label>
-						<br>
-						<input name="tbName" type="text" maxlength="20" required>
-						<br>
-						<label for="txComment">Your Comment/ Questions</label>
-						<br>
-						<textarea id="txComment" maxlength="4096" required style="width:96%"></textarea>
-						<br>
-						<input type="submit" id="btnSubmitComment" value="Submit Comment">
-						</form>
-
-					</div>
-
 				</section>
 
 			</div>
@@ -182,29 +164,29 @@
 
 				<!-- Menu -->
 				<nav id="menu">
-									<header class="major">
-									<a href="index.html" class="logo" <h2><strong>All About day</strong></h2></a>
-									</header>
-									<ul>
-										<li><a href="index.html">Home</a></li>
-										<li>
-											<span class="opener">Tech</span>
-											<ul>
-												<li><a href="#">Devices</a></li>
-												<li><a href="#">Space</a></li>
-												<li><a href="#">Automobile</a></li>
-												<li><a href="#">Money</a></li>
-											</ul>
-										</li>
-										<li><a href="generic.html">Information</a></li>
-										<li><a href="#">Lifestyle</a></li>
+					<header class="major">
+						<a href="index.html" class="logo" <h2><strong>All About day</strong></h2></a>
+					</header>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li>
+							<span class="opener">Tech</span>
+							<ul>
+								<li><a href="#">Devices</a></li>
+								<li><a href="#">Space</a></li>
+								<li><a href="#">Automobile</a></li>
+								<li><a href="#">Money</a></li>
+							</ul>
+						</li>
+						<li><a href="generic.html">Information</a></li>
+						<li><a href="#">Lifestyle</a></li>
 
-										<li><a href="#">Business</a></li>
-										<li><a href="#">News</a></li>
-										<li><a href="#">Sports</a></li>
-										<li><a href="#">E-Sports</a></li>
-									</ul>
-								</nav>
+						<li><a href="#">Business</a></li>
+						<li><a href="#">News</a></li>
+						<li><a href="#">Sports</a></li>
+						<li><a href="#">E-Sports</a></li>
+					</ul>
+				</nav>
 
 				<!-- Section -->
 				<section>
@@ -253,6 +235,28 @@
 		</div>
 
 	</div>
+	<div id="disqus_thread"></div>
+	<script>
+		/**
+		 *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+		 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+
+		var disqus_config = function () {
+		this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+		this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+		};
+
+		(function() { // DON'T EDIT BELOW THIS LINE
+			var d = document,
+				s = d.createElement('script');
+			s.src = 'https://https-allabouttoday-github-io-3.disqus.com/embed.js';
+			s.setAttribute('data-timestamp', +new Date());
+			(d.head || d.body).appendChild(s);
+		})();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	<script id="dsq-count-scr" src="//https-allabouttoday-github-io-3.disqus.com/count.js" async></script>
+
 
 
 
@@ -262,13 +266,6 @@
 	<script src="../assets/js/breakpoints.min.js"></script>
 	<script src="../assets/js/util.js"></script>
 	<script src="../assets/js/main.js"></script>
-	<!-- The core Firebase JS SDK is always required and must be listed first -->
-	<script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-app.js"></script>
-
-	<!-- TODO: Add SDKs for Firebase products that you want to use
-	     https://firebase.google.com/docs/web/setup#available-libraries -->
-	<script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-database.js"></script>	
-	<script src="../assets/js/comments.js"></script>
 
 </body>
 
