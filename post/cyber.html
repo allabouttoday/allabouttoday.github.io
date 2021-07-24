@@ -146,24 +146,7 @@
 						A 'Cyber Cleanliness Center' has also been established to deal with cybercrimes in a coordinated and effective manner in the country. It is a part of the Digital India campaign of the Government of India under the Ministry of Electronics
 						and Information Technology-MeitY. India is coordinating with countries like the US, UK, and China to adopt best practices in terms of information sharing and cybersecurity.
 					</p>
-					<div id="all comments">
-						<h3>Coments</h3>
-						<!--past comments-->
-						<ul id=pastcomments></ul>
-						<form id="newcomment" action="#">
-						<label for="tbName">First Name or Initials</label>
-						<br>
-						<input name="tbName" type="text" maxlength="20" required>
-						<br>
-						<label for="txComment">Your Comment/ Questions</label>
-						<br>
-						<textarea id="txComment" maxlength="4096" required style="width:96%"></textarea>
-						<br>
-						<input type="submit" id="btnSubmitComment" value="Submit Comment">
-						</form>
-
-					</div>
-
+					<div id="disqus_thread"></div>
 				</section>
 
 			</div>
@@ -199,7 +182,7 @@
 										<li><a href="generic.html">Information</a></li>
 										<li><a href="#">Lifestyle</a></li>
 
-										<li><a href="#">Business</a></li>
+										<li><a href="bussines.html">Business</a></li>
 										<li><a href="#">News</a></li>
 										<li><a href="#">Sports</a></li>
 										<li><a href="#">E-Sports</a></li>
@@ -209,7 +192,7 @@
 				<!-- Section -->
 				<section>
 					<header class="major">
-						<h2>Ante interdum</h2>
+						<h2>Recent Post</h2>
 					</header>
 					<div class="mini-posts">
 						<article>
@@ -235,18 +218,17 @@
 					<header class="major">
 						<h2>Get in touch</h2>
 					</header>
-					<p>Sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin sed aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+					<p>You can connect with us using below Details</p>
 					<ul class="contact">
-						<li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li>
-						<li class="icon solid fa-phone">(000) 000-0000</li>
-						<li class="icon solid fa-home">1234 Somewhere Road #8254<br />
-							Nashville, TN 00000-0000</li>
+						<li class="icon solid fa-envelope"><a href="#">allabout2day@gmail.com</a></li>
+						<li class="icon solid fa-home">Nashik #8254<br />
+							Maharashtra, India</li>
 					</ul>
 				</section>
 
 				<!-- Footer -->
 				<footer id="footer">
-					<p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					<p class="copyright">&copy; Untitled. All rights reserved by AllAboutToday.</p>
 				</footer>
 
 			</div>
@@ -262,10 +244,25 @@
 	<script src="../assets/js/breakpoints.min.js"></script>
 	<script src="../assets/js/util.js"></script>
 	<script src="../assets/js/main.js"></script>
-	<script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-app.js"></script>
-	<script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-database.js"></script>	
-	<script src="../assets/js/comments.js"></script>
 
 </body>
+
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://allabouttoday-1.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
 </html>
