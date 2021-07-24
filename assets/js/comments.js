@@ -1,4 +1,4 @@
-  // Your web app's Firebase configuration
+   // Your web app's Firebase configuration
   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
   var firebaseConfig = {
     apiKey: "AIzaSyCRYbJAArVCe55PUEZZNYACgE1uhJMBBnI",
@@ -17,7 +17,7 @@
   //commentsRef is just the comments data in the database.
   const commentsRef= rootRef.child('comments');
   //list for click on submit.
-  document.getElementById('btnSubmitComment').addEventListener("click",function(){
+  document.getElementById('btnSubmitComment').addEventListener("click",function () {
     //Replace line breaks in comment with br tags.
     var newcomment= document.getElementById('txComment').value.replace(/\n/g,"<br>");
     //Define a new, keyed post.
