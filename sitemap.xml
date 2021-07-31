@@ -1,77 +1,203 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-  
 
-  <url>
-    <loc>https://allabouttoday.github.io/</loc>
-    <lastmod>2021-07-30T05:11:44+00:00</lastmod>
-    <priority>1.00</priority>
-  </url>
-  <url>
-    <loc>https://allabouttoday.github.io/index.html</loc>
-    <lastmod>2021-07-30T05:11:44+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://allabouttoday.github.io/tech.html</loc>
-    <lastmod>2021-07-30T05:11:44+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://allabouttoday.github.io/bussines.html</loc>
-    <lastmod>2021-07-30T05:11:44+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://allabouttoday.github.io/lifestyle.html</loc>
-    <lastmod>2021-07-30T05:11:44+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://allabouttoday.github.io/sports.html</loc>
-    <lastmod>2021-07-30T05:11:44+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://allabouttoday.github.io/Technology/devices.html</loc>
-    <lastmod>2021-07-30T05:11:44+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://allabouttoday.github.io/Technology/automobiles.html</loc>
-    <lastmod>2021-07-30T05:11:44+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://allabouttoday.github.io/Technology/money.html</loc>
-    <lastmod>2021-07-30T05:11:44+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://allabouttoday.github.io/information.html</loc>
-    <lastmod>2021-07-30T05:11:44+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://allabouttoday.github.io/education.html</loc>
-    <lastmod>2021-07-30T05:11:44+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://allabouttoday.github.io/esports.html</loc>
-    <lastmod>2021-07-30T05:11:44+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://allabouttoday.github.io/disclaimer.html</loc>
-    <lastmod>2021-07-30T05:11:44+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://allabouttoday.github.io/Technology/space.html</loc>
-    <lastmod>2021-07-30T05:11:44+00:00</lastmod>
-    <priority>0.64</priority>
-  </url>
+-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+-<url>
+
+<loc>https://allabouttoday.github.io/</loc>
+
+<changefreq>daily</changefreq>
+
+</url>
+
+
+-<url>
+
+<loc>https://allabouttoday.github.io/Devices/cyber.html</loc>
+
+<changefreq>daily</changefreq>
+
+</url>
+
+
+-<url>
+
+<loc>https://allabouttoday.github.io/Technology/money.html</loc>
+
+<changefreq>daily</changefreq>
+
+</url>
+
+
+-<url>
+
+<loc>https://allabouttoday.github.io/lifestyle.html</loc>
+
+<changefreq>daily</changefreq>
+
+</url>
+
+
+-<url>
+
+<loc>https://allabouttoday.github.io/E-sports/eSports in education.html</loc>
+
+<changefreq>daily</changefreq>
+
+</url>
+
+
+-<url>
+
+<loc>https://allabouttoday.github.io/information.html</loc>
+
+<changefreq>daily</changefreq>
+
+</url>
+
+
+-<url>
+
+<loc>https://allabouttoday.github.io/lifestyle/The 3 Ps of a Workplace- Pens, PDFs, and Professionalism.html</loc>
+
+<changefreq>daily</changefreq>
+
+</url>
+
+
+-<url>
+
+<loc>https://allabouttoday.github.io/bussines.html</loc>
+
+<changefreq>daily</changefreq>
+
+</url>
+
+
+-<url>
+
+<loc>https://allabouttoday.github.io/Finance/Bitcoins.html</loc>
+
+<changefreq>daily</changefreq>
+
+</url>
+
+
+-<url>
+
+<loc>https://allabouttoday.github.io/Auto/Best Sports Car.html</loc>
+
+<changefreq>daily</changefreq>
+
+</url>
+
+
+-<url>
+
+<loc>https://allabouttoday.github.io/education.html</loc>
+
+<changefreq>daily</changefreq>
+
+</url>
+
+
+-<url>
+
+<loc>https://allabouttoday.github.io/index.html</loc>
+
+<changefreq>daily</changefreq>
+
+</url>
+
+
+-<url>
+
+<loc>https://allabouttoday.github.io/Technology/space.html</loc>
+
+<changefreq>daily</changefreq>
+
+</url>
+
+
+-<url>
+
+<loc>https://allabouttoday.github.io/esports.html</loc>
+
+<changefreq>daily</changefreq>
+
+</url>
+
+
+-<url>
+
+<loc>https://allabouttoday.github.io/Technology/automobiles.html</loc>
+
+<changefreq>daily</changefreq>
+
+</url>
+
+
+-<url>
+
+<loc>https://allabouttoday.github.io/Technology/devices.html</loc>
+
+<changefreq>daily</changefreq>
+
+</url>
+
+
+-<url>
+
+<loc>https://allabouttoday.github.io/sports.html</loc>
+
+<changefreq>daily</changefreq>
+
+</url>
+
+
+-<url>
+
+<loc>https://allabouttoday.github.io/tech.html</loc>
+
+<changefreq>daily</changefreq>
+
+</url>
+
+
+-<url>
+
+<loc>https://allabouttoday.github.io/bussiness/The Mistakes in Background Screening that can affect a business.html</loc>
+
+<changefreq>daily</changefreq>
+
+</url>
+
+
+-<url>
+
+<loc>https://allabouttoday.github.io/Space/why we are shifting to mars.html</loc>
+
+<changefreq>daily</changefreq>
+
+</url>
+
+
+-<url>
+
+<loc>https://allabouttoday.github.io/disclaimer.html</loc>
+
+<changefreq>daily</changefreq>
+
+</url>
+
+
+-<url>
+
+<loc>https://allabouttoday.github.io/information/Time Travelling.html</loc>
+
+<changefreq>daily</changefreq>
+
+</url>
 
 </urlset>
